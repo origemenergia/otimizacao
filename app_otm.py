@@ -4,6 +4,8 @@ import itertools
 import math
 import time
 
+#teste
+
 @st.cache_data
 def carregar_dados(uploaded_file):
     df = pd.read_excel(uploaded_file)
